@@ -1,0 +1,57 @@
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Success</title>
+    <link rel="stylesheet" type="text/css" href="css/success.css" />
+    <link rel="stylesheet" type="text/css" href="css/font.css" />
+    <link rel="stylesheet" href="css/scrollbar.css" />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <header class="site-header" id="header">
+      <h1 class="site-title">THANK YOU!</h1>
+    </header>
+
+    <div class="main-content">
+      <i class="fa fa-check main-content-checkmark" id="checkmark"></i>
+      <p class="main-message">
+        Thanks for filling out. Here is your details you filled
+      </p>
+      <div class="table-content">
+        <table>
+          <tr>
+            <th>Field</th>
+            <th>Detail</th>
+          </tr>
+          <tr>
+            <td>First Name</td>
+            <td>{{first_name}}</td>
+          </tr>
+          <tr>
+            <td>Last Name</td>
+            <td>{{last_name}}</td>
+          </tr>
+          <tr>
+            <td>Mail Id</td>
+            <td>{{your_email}}</td>
+          </tr>
+          <tr>
+            <td>Message</td>
+            <td>{{message}}</td>
+          </tr>
+          <tr>
+            <td>Query</td>
+            <td>{{query}}</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </body>
+</html>
